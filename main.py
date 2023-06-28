@@ -1,9 +1,11 @@
 import resources
 import os
 
+# Set environment variable in order to use clear function
+os.environ["TERM"] = "xterm-color"
+
 
 # Define clearing function
-
 def clear():
     os.system('clear')
 
