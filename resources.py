@@ -1,4 +1,4 @@
-# TODO. Get ASCII art
+# Get ASCII art
 
 
 logo = """  __  __                        _____                          _            
@@ -10,7 +10,7 @@ logo = """  __  __                        _____                          _
 
                                                                             """
 
-# TODO. Get morse conversion dictionary
+# Get morse conversion dictionary
 
 MORSE_CODE_DICT = {'A': '.-', 'B': '-...',
                    'C': '-.-.', 'D': '-..', 'E': '.',

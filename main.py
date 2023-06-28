@@ -1,44 +1,42 @@
-# TODO. Import
-
 import resources
 import os
 
 
-# TODO. Define clearing function
+# Define clearing function
 
 def clear():
     os.system('clear')
 
 
-# TODO. Define morse conversion function
+# Define morse conversion function
 
 program_running = True
 
 
 def morse_converter():
 
-    # TODO. Set program loop
+    # Set program loop
 
     while program_running:
 
         clear()
 
-        # TODO. Display art
+        # Display art
 
         print(resources.logo)
 
-        # TODO. Take an input from user and capitalize
+        # Take an input from user and capitalize
 
         user_input = input("Type text to be converted to morse.\n").upper()
 
-        # TODO. Iterate though characters in user input and find corresponding morse code
+        # Iterate though characters in user input and find corresponding morse code
 
         morse_output = ""
 
         for element in user_input:
             morse_output = morse_output + resources.MORSE_CODE_DICT[element]
 
-        # TODO. Print final result
+        # Print final result
 
         print(f"Your input converted to morse code is:\n{morse_output}")
 
@@ -50,6 +48,6 @@ def morse_converter():
             break
 
 
-# TODO. Call function
+# Call function
 
 morse_converter()
