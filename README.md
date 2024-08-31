@@ -16,8 +16,8 @@ This is a simple Python program that converts text input into Morse code. It pro
 * OS
 
 ### File Structure
-* main.py: Contains the main program logic and user interface
-* resources.py: Contains the ASCII art logo and Morse code dictionary
+* `main.py`: Contains the main program logic and user interface
+* `resources.py`: Contains the ASCII art logo and Morse code dictionary
 
 
 ## Getting Started
@@ -28,7 +28,7 @@ This is a simple Python program that converts text input into Morse code. It pro
 ## How It Works
 1. The program imports necessary modules and resources.
 2. It sets up the environment for the clear screen function.
-3. The main morse_converter() function is defined, which:
+3. The `main morse_converter()` function is defined, which:
     1. Clears the screen and displays the logo.
     2. Prompts the user for input.
     3. Converts the input to uppercase.
@@ -37,4 +37,4 @@ This is a simple Python program that converts text input into Morse code. It pro
     6. Asks if the user wants to continue or exit.
 
 ## Customization
-You can modify the MORSE_CODE_DICT in resources.py to add or change Morse code mappings for different characters.
+You can modify the `MORSE_CODE_DICT` in resources.py to add or change Morse code mappings for different characters.
