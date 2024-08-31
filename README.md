@@ -29,12 +29,12 @@ This is a simple Python program that converts text input into Morse code. It pro
 1. The program imports necessary modules and resources.
 2. It sets up the environment for the clear screen function.
 3. The main morse_converter() function is defined, which:
-  1. Clears the screen and displays the logo.
-  2. Prompts the user for input.
-  3. Converts the input to uppercase.
-  4. Iterates through each character, looking up the Morse code equivalent.
-  5. Displays the final Morse code output.
-  6. Asks if the user wants to continue or exit.
+    1. Clears the screen and displays the logo.
+    2. Prompts the user for input.
+    3. Converts the input to uppercase.
+    4. Iterates through each character, looking up the Morse code equivalent.
+    5. Displays the final Morse code output.
+    6. Asks if the user wants to continue or exit.
 
 ## Customization
 You can modify the MORSE_CODE_DICT in resources.py to add or change Morse code mappings for different characters.
